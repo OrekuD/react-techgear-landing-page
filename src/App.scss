@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "GilroyRegular";
+  src: url(./assets/fonts/Gilroy-Regular.ttf);
+}
+
+@font-face {
+  font-family: "GilroyBold";
+  src: url(./assets/fonts/SVNGilroy-Bold.otf);
+}
+
+@font-face {
+  font-family: "GilroyLight";
+  src: url(./assets/fonts/SVNGilroy-Light.otf);
+}
+
+html {
+  background-color: #222222;
+  font-size: 16px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 0 100px;
+
+  @media (max-width: 1024px) {
+    padding: 0 80px;
+  }
+
+  @media (max-width: 920px) {
+    padding: 0 50px;
+  }
+
+  @media (max-width: 720px) {
+    padding: 0 35px;
+  }
+
+  @media (max-width: 620px) {
+    padding: 0 15px;
+  }
+
+  @media (max-width: 440px) {
+    padding: 0 10px;
+  }
+}
+
+button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+
+  &:focus {
+    outline: none;
+  }
+}
