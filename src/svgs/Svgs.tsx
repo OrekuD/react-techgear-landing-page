@@ -69,3 +69,45 @@ export const Cart = ({ size, color }: Props) => (
     />
   </svg>
 );
+
+export const ArrowRight = ({ size, color }: Props) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width={size}
+    height={size}
+    viewBox="0 0 24 24"
+  >
+    <g transform="translate(24 24) rotate(180)">
+      <path d="M0,0H24V24H0Z" fill="none" />
+      <line
+        x2="14"
+        transform="translate(5 12)"
+        fill="none"
+        stroke={color}
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="1.5"
+      />
+      <line
+        x2="6"
+        y2="6"
+        transform="translate(5 12)"
+        fill="none"
+        stroke={color}
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="1.5"
+      />
+      <line
+        y1="6"
+        x2="6"
+        transform="translate(5 6)"
+        fill="none"
+        stroke={color}
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="1.5"
+      />
+    </g>
+  </svg>
+);

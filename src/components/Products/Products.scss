@@ -1,0 +1,44 @@
+@import "../../constants/colors.scss";
+
+.products {
+  padding: 50px 0;
+
+  .items {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 0 100px;
+
+    .wrapper {
+      width: 300px;
+      margin: 150px auto 0px auto;
+
+      .product {
+        width: 280px;
+        height: 220px;
+        margin: 0 auto;
+        background-color: $grey;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        cursor: pointer;
+
+        img {
+          width: 280px;
+          height: 240px;
+          margin-top: -75px;
+          object-fit: contain;
+        }
+
+        p {
+          font-size: 18px;
+          font-family: "GilroyBold";
+          color: white;
+          text-align: center;
+          margin-top: -15px;
+        }
+      }
+    }
+  }
+}
