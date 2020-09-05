@@ -11,6 +11,10 @@
     font-family: "GilroyMedium";
     color: #203742;
     text-transform: uppercase;
+
+    @media (max-width: 440px) {
+      font-size: 60px;
+    }
   }
 
   .subtitle {
@@ -20,6 +24,11 @@
     position: relative;
     margin-top: -35px;
     text-align: center;
+
+    @media (max-width: 440px) {
+      font-size: 22px;
+      margin-top: -30px;
+    }
   }
 
   .row {
