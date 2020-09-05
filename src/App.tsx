@@ -14,7 +14,7 @@ function App() {
     <>
       <div className="container">
         <Header />
-        {/* <Banner /> */}
+        <Banner />
         <Products />
         <Services />
         <Members />

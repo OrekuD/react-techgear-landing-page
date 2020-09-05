@@ -6,16 +6,35 @@
 
   .content {
     width: 50%;
+    @media (max-width: 720px) {
+      width: 100%;
+    }
+
+    @media (max-width: 440px) {
+      padding-top: 30px;
+    }
 
     p {
       margin: 15px 0;
       width: 90%;
+
+      @media (max-width: 720px) {
+        width: 80%;
+      }
+
+      @media (max-width: 440px) {
+        width: 100%;
+      }
     }
 
     .title {
       font-family: "GilroyBold";
       font-size: 44px;
       color: white;
+
+      @media (max-width: 755px) {
+        font-size: 40px;
+      }
     }
 
     .subtitle {
@@ -28,6 +47,7 @@
       font-family: "GilroyRegular";
       font-size: 16px;
       color: white;
+      line-height: 22px;
     }
 
     .price {
@@ -76,5 +96,17 @@
     height: calc(85vh - 100px);
     width: auto;
     object-fit: contain;
+
+    @media (max-width: 1024px) {
+      height: calc(75vh - 100px);
+    }
+
+    @media (max-width: 920px) {
+      height: calc(65vh - 100px);
+    }
+
+    @media (max-width: 720px) {
+      display: none;
+    }
   }
 }
