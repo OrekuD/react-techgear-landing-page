@@ -1,0 +1,80 @@
+@import "../../constants/colors.scss";
+
+.banner {
+  display: flex;
+  align-items: center;
+
+  .content {
+    width: 50%;
+
+    p {
+      margin: 15px 0;
+      width: 90%;
+    }
+
+    .title {
+      font-family: "GilroyBold";
+      font-size: 44px;
+      color: white;
+    }
+
+    .subtitle {
+      font-family: "GilroyMedium";
+      font-size: 24px;
+      color: $lightgrey;
+    }
+
+    .description {
+      font-family: "GilroyRegular";
+      font-size: 16px;
+      color: white;
+    }
+
+    .price {
+      font-family: "GilroyRegular";
+      font-size: 16px;
+      color: $blue;
+    }
+
+    .buttons {
+      display: flex;
+      margin-top: 10px;
+      margin-bottom: 60px;
+
+      button {
+        width: 160px;
+        height: 44px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        border-radius: 4px;
+        padding: 0 15px;
+
+        &:first-of-type {
+          margin-right: 20px;
+        }
+
+        p {
+          color: #fff;
+          text-transform: uppercase;
+          font-size: 14px;
+          font-family: "GilroyBold";
+        }
+      }
+
+      .cart {
+        background-color: $blue;
+      }
+
+      .info {
+        border: 1px solid $lightgrey;
+      }
+    }
+  }
+
+  img {
+    height: calc(100vh - 100px);
+    width: auto;
+    object-fit: contain;
+  }
+}

@@ -26,3 +26,46 @@ export const Logo = ({ size }: Props) => (
     </g>
   </svg>
 );
+
+export const Info = ({ size, color }: Props) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width={size}
+    height={size}
+    viewBox="0 0 16 16"
+  >
+    <g transform="translate(-6 -6)">
+      <path
+        d="M14,22a8,8,0,1,1,8-8A8.008,8.008,0,0,1,14,22ZM14,7.333A6.667,6.667,0,1,0,20.667,14,6.674,6.674,0,0,0,14,7.333Z"
+        fill={color}
+      />
+      <path
+        d="M12.167,16.333a.667.667,0,0,1-.667-.667v-4a.667.667,0,1,1,1.333,0v4A.667.667,0,0,1,12.167,16.333Z"
+        transform="translate(1.833 1.667)"
+        fill={color}
+      />
+      <circle
+        cx="0.667"
+        cy="0.667"
+        r="0.667"
+        transform="translate(13.333 10)"
+        fill={color}
+      />
+    </g>
+  </svg>
+);
+
+export const Cart = ({ size, color }: Props) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width={size}
+    height={size}
+    viewBox="0 0 15.055 16"
+  >
+    <path
+      d="M26.983,12.688h-6.3l-.49-1.922h8.2l1.773-7.09h-5.9V0H23.33V3.676H18.386l-.635-2.488H15.116v.938h1.906l2.719,10.656a1.656,1.656,0,1,0,2.038.844h3.711a1.656,1.656,0,1,0,1.492-.937ZM18.625,4.613h4.7V6.754L22.208,5.633l-.663.663L23.8,8.549,26.052,6.3l-.663-.663L24.267,6.754V4.613h4.7l-1.3,5.215H19.956Zm1.663,10.449a.718.718,0,1,1,.718-.718A.719.719,0,0,1,20.288,15.063Zm6.695,0a.718.718,0,1,1,.718-.718A.719.719,0,0,1,26.983,15.063Z"
+      transform="translate(-15.116)"
+      fill={color}
+    />
+  </svg>
+);

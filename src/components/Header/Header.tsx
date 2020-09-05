@@ -7,7 +7,6 @@ const links = ["Home", "Products", "Services", "Members", "Contacts"];
 const Header = () => (
   <header>
     <Logo size={136} />
-
     <div className="links">
       {links.map((link, index) => (
         <div key={index} className="link">
