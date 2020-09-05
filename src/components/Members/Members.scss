@@ -11,8 +11,8 @@
     margin-top: 20px;
 
     .wrapper {
-      width: 180px;
-      height: 180px;
+      width: 220px;
+      height: 200px;
       margin-top: 10px;
 
       @media (max-width: 378px) {
@@ -25,12 +25,36 @@
         height: 90%;
         margin: 0 auto;
         background-color: $grey;
-        border-radius: 20px;
+        border-radius: 10px;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: space-evenly;
         cursor: pointer;
+        position: relative;
+
+        .btn {
+          position: absolute;
+          width: 34px;
+          height: 34px;
+          border-radius: 4px;
+          background-color: $blue;
+          display: grid;
+          place-items: center;
+        }
+
+        .left-icon-button {
+          left: -17px;
+          opacity: 0.5;
+        }
+
+        .right-icon-button {
+          right: -17px;
+
+          svg {
+            transform: rotate(180deg);
+          }
+        }
 
         img {
           width: 80%;

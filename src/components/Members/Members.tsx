@@ -5,6 +5,7 @@ import spaceplay from "../../assets/images/spaceplay.png";
 import predator from "../../assets/images/predator.png";
 import teratech from "../../assets/images/teratech.png";
 import Title from "../Title/Title";
+import { Chevron } from "../../svgs/Svgs";
 
 const members = [
   {
@@ -37,6 +38,16 @@ const Members = () => (
           <div className="member">
             <img src={image} alt={name} />
             <p>{name}</p>
+            {index === 0 && (
+              <button className="btn left-icon-button">
+                <Chevron size={8} color="#fff" />
+              </button>
+            )}
+            {index === members.length - 1 && (
+              <button className="btn right-icon-button">
+                <Chevron size={8} color="#fff" />
+              </button>
+            )}
           </div>
         </div>
       ))}

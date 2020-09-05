@@ -7,6 +7,7 @@ import {
   Services,
   Members,
   Footer,
+  Contact,
 } from "./components";
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
         <Products />
         <Services />
         <Members />
+        <Contact />
       </div>
       <Footer />
     </>

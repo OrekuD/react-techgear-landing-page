@@ -84,9 +84,9 @@ export const ArrowRight = ({ size, color }: Props) => (
         transform="translate(5 12)"
         fill="none"
         stroke={color}
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-width="1.5"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="1.5"
       />
       <line
         x2="6"
@@ -94,9 +94,9 @@ export const ArrowRight = ({ size, color }: Props) => (
         transform="translate(5 12)"
         fill="none"
         stroke={color}
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-width="1.5"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="1.5"
       />
       <line
         y1="6"
@@ -104,10 +104,212 @@ export const ArrowRight = ({ size, color }: Props) => (
         transform="translate(5 6)"
         fill="none"
         stroke={color}
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        stroke-width="1.5"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        strokeWidth="1.5"
       />
     </g>
+  </svg>
+);
+
+export const Phone = ({ size }: Props) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width={size}
+    height={size}
+    viewBox="0 0 24 24"
+  >
+    <path d="M0,0H24V24H0Z" fill="none" />
+    <path
+      d="M5,4H9l2,5L8.5,10.5a11,11,0,0,0,5,5L15,13l5,2v4a2,2,0,0,1-2,2A16,16,0,0,1,3,6,2,2,0,0,1,5,4"
+      fill="none"
+      stroke="#19b5fe"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth="1.5"
+    />
+    <path
+      d="M15,7a2,2,0,0,1,2,2"
+      fill="none"
+      stroke="#19b5fe"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth="1.5"
+    />
+    <path
+      d="M15,3a6,6,0,0,1,6,6"
+      fill="none"
+      stroke="#19b5fe"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth="1.5"
+    />
+  </svg>
+);
+
+export const Instagram = ({ size }: Props) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width={size}
+    height={size}
+    viewBox="0 0 24 24"
+  >
+    <path d="M0,0H24V24H0Z" fill="none" />
+    <rect
+      width="16"
+      height="16"
+      rx="4"
+      transform="translate(4 4)"
+      fill="none"
+      stroke="#19b5fe"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth="1.5"
+    />
+    <circle
+      cx="3"
+      cy="3"
+      r="3"
+      transform="translate(9 9)"
+      fill="none"
+      stroke="#19b5fe"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth="1.5"
+    />
+    <line
+      y2="0.001"
+      transform="translate(16.5 7.5)"
+      fill="none"
+      stroke="#19b5fe"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth="1.5"
+    />
+  </svg>
+);
+
+export const Facebook = ({ size }: Props) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width={size}
+    height={size}
+    viewBox="0 0 24 24"
+  >
+    <path d="M0,0H24V24H0Z" fill="none" />
+    <path
+      d="M7,10v4h3v7h4V14h3l1-4H14V8a1,1,0,0,1,1-1h3V3H15a5,5,0,0,0-5,5v2H7"
+      fill="none"
+      stroke="#19b5fe"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth="1.5"
+    />
+  </svg>
+);
+
+export const Twitter = ({ size }: Props) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width={size}
+    height={size}
+    viewBox="0 0 24 24"
+  >
+    <path d="M0,0H24V24H0Z" fill="none" />
+    <path
+      d="M22,4.01A17.943,17.943,0,0,1,19,5a3.789,3.789,0,0,0-4.38-.737A3.933,3.933,0,0,0,12,8V9A9.392,9.392,0,0,1,4,5S-.182,12.433,8,16a9.856,9.856,0,0,1-6,2,13.425,13.425,0,0,0,10.034,1.517,11,11,0,0,0,7.651-7.742,13.84,13.84,0,0,0,.5-3.753c0-.249,1.51-2.772,1.818-4.013Z"
+      fill="none"
+      stroke="#19b5fe"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth="1.5"
+    />
+  </svg>
+);
+
+export const Telegram = ({ size }: Props) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width={size}
+    height={size}
+    viewBox="0 0 24 24"
+  >
+    <path d="M0,0H24V24H0Z" fill="none" />
+    <path
+      d="M15,10l-4,4,6,6L21,4,3,11l4,2,2,6,3-4"
+      fill="none"
+      stroke="#19b5fe"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth="1.5"
+    />
+  </svg>
+);
+
+export const Github = ({ size }: Props) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width={size}
+    height={size}
+    viewBox="0 0 24 24"
+  >
+    <path d="M0,0H24V24H0Z" fill="none" />
+    <path
+      d="M9,19c-4.286,1.35-4.286-2.55-6-3m12,5V17.5c0-1,.1-1.405-.5-2,2.791-.3,5.5-1.366,5.5-6.04a4.567,4.567,0,0,0-1.333-3.21,4.192,4.192,0,0,0-.08-3.227s-1.05-.3-3.476,1.267a12.334,12.334,0,0,0-6.222,0C6.462,2.723,5.413,3.023,5.413,3.023a4.192,4.192,0,0,0-.08,3.227A4.566,4.566,0,0,0,4,9.486c0,4.64,2.709,5.68,5.5,6.014a2.19,2.19,0,0,0-.5,2V21"
+      fill="none"
+      stroke="#19b5fe"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth="1.5"
+    />
+  </svg>
+);
+
+export const Mail = ({ size }: Props) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width={size}
+    height={size}
+    viewBox="0 0 24 24"
+  >
+    <path d="M0,0H24V24H0Z" fill="none" />
+    <rect
+      width="18"
+      height="14"
+      rx="2"
+      transform="translate(3 5)"
+      fill="none"
+      stroke="#19b5fe"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth="1.5"
+    />
+    <path
+      d="M3,7l9,6,9-6"
+      fill="none"
+      stroke="#19b5fe"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth="1.5"
+    />
+  </svg>
+);
+
+export const Chevron = ({ size, color }: Props) => (
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width={size}
+    height={size * 1.74}
+    viewBox="0 0 11.621 20.243"
+  >
+    <path
+      d="M242.829,4341.673l8,8,8-8"
+      transform="translate(4351.173 -240.708) rotate(90)"
+      fill="none"
+      stroke={color}
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      strokeWidth="3"
+    />
   </svg>
 );
