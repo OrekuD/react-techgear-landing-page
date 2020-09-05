@@ -2,15 +2,24 @@ import React from "react";
 import "./Header.scss";
 import { Logo } from "../../svgs/Svgs";
 
-const links = ["Home", "Products", "Services", "Members", "Contacts"];
+const links = [
+  {
+    name: "Home",
+    path: "/",
+  },
+  { name: "Products", path: "#products" },
+  { name: "Services", path: "#services" },
+  { name: "Members", path: "#members" },
+  { name: "Contacts", path: "#contact" },
+];
 
 const Header = () => (
   <header>
     <Logo size={136} />
     <div className="links">
-      {links.map((link, index) => (
+      {links.map(({ name, path }, index) => (
         <div key={index} className="link">
-          <p>{link}</p>
+          <a href={path}>{name}</a>
         </div>
       ))}
       <button>sign in</button>

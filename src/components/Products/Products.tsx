@@ -21,7 +21,7 @@ const products = [
 ];
 
 const Products = () => (
-  <div className="products">
+  <div className="products" id="products">
     <Title
       title="products"
       subtitle="Which type of gear are you looking for?"

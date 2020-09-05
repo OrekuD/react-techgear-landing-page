@@ -27,7 +27,7 @@ const members = [
 ];
 
 const Members = () => (
-  <div className="members">
+  <div className="members" id="members">
     <Title
       title="members"
       subtitle="We proudly introduce our powerful members"

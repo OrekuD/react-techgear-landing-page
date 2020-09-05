@@ -17,7 +17,7 @@ const iconSize = 24;
 const socialIcons = [Facebook, Instagram, Twitter, Telegram, Github];
 
 const Contact = () => (
-  <div className="contact">
+  <div className="contact" id="contact">
     <Title title="contacts" subtitle="Some ways for you to contact us" />
     <div className="content">
       <div className="left-container">

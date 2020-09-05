@@ -1,7 +1,7 @@
 @import "../../constants/colors.scss";
 
 header {
-  height: 100px;
+  height: 120px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -12,17 +12,26 @@ header {
 
     .link {
       margin-right: 25px;
+      padding-bottom: 20px;
+      margin-bottom: -20px;
 
       @media (max-width: 820px) {
         display: none;
       }
 
-      p {
+      a {
         color: $lightgrey;
         text-transform: uppercase;
         font-size: 14px;
         font-family: "GilroyBold";
-        cursor: pointer;
+        text-decoration: none;
+      }
+
+      &:first-of-type {
+        border-bottom: 2px solid $blue;
+        a {
+          color: $blue;
+        }
       }
     }
   }

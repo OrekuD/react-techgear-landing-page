@@ -26,7 +26,7 @@ const services = [
 ];
 
 const Services = () => (
-  <div className="services">
+  <div className="services" id="services">
     <Title
       title="services"
       subtitle="We provide more than high-tech products!"
