@@ -7,11 +7,12 @@
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    padding: 0 100px;
+    justify-content: center;
+    // padding: 0 100px;
 
     .wrapper {
-      width: 300px;
-      margin: 150px auto 0px auto;
+      width: 310px;
+      margin: 100px 0 0px 0;
 
       .product {
         width: 280px;
@@ -37,6 +38,7 @@
           color: white;
           text-align: center;
           margin-top: -15px;
+          text-transform: capitalize;
         }
       }
     }
